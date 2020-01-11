@@ -1,0 +1,4 @@
+test\loginTest.class
+test\pageProvider.class
+pages\loginPage.class
+runner\TestRunner.class

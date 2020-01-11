@@ -1,0 +1,159 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# new feature"
+      },
+      {
+        "line": 2,
+        "value": "# Tags: optional"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Welcome user name",
+        "description": "",
+        "id": "welcome-user-name;welcome-user-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8841425000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Open welcome user name page https://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 30
+                }
+              ],
+              "location": "welcomeUserNameTest.Open_banking_website(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22207716400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify ready login page",
+            "match": {
+              "location": "welcomeUserNameTest.verify_ready_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6248019800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click account number",
+            "match": {
+              "location": "welcomeUserNameTest.click_account_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I verify account number is correct",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Welcome user name",
+        "description": "",
+        "id": "welcome-user-name;welcome-user-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6037892900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Open welcome user name page https://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 30
+                }
+              ],
+              "location": "welcomeUserNameTest.Open_banking_website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21694157300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify ready login page",
+            "match": {
+              "location": "welcomeUserNameTest.verify_ready_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6239940100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click account number",
+            "match": {
+              "location": "welcomeUserNameTest.click_account_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6150584400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify account number is correct 1004",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1004",
+                  "offset": 35
+                }
+              ],
+              "location": "welcomeUserNameTest.verify_account_number_correct(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Welcome user name",
+    "description": "",
+    "id": "welcome-user-name",
+    "keyword": "Feature",
+    "uri": "src/main/java/features/welcomeUserName.feature"
+  }
+]
