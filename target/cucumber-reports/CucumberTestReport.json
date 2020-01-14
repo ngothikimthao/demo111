@@ -1,0 +1,331 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# new feature"
+      },
+      {
+        "line": 2,
+        "value": "# Tags: optional"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6804697500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Website https://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 13
+                }
+              ],
+              "location": "CommonTest.user_already_on_home_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Search customer successfully",
+        "description": "",
+        "id": "search-customer;search-customer-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6131937000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I login bank manager successfully",
+            "match": {
+              "location": "CommonTest.loginBankManagerSuccessfully()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3119362100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click customer tab",
+            "match": {
+              "location": "CommonTest.clickCustomerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3301816500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input key search as P",
+            "match": {
+              "arguments": [
+                {
+                  "val": "P",
+                  "offset": 22
+                }
+              ],
+              "location": "SearchCustomerTest.setKeySearch(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2203396800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify that system is already showed customer has P",
+            "match": {
+              "arguments": [
+                {
+                  "val": "P",
+                  "offset": 52
+                }
+              ],
+              "location": "SearchCustomerTest.verifySearchCustomerSuccessfully(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1070982200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Website https://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 13
+                }
+              ],
+              "location": "CommonTest.user_already_on_home_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Search customer successfully",
+        "description": "",
+        "id": "search-customer;search-customer-successfully;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6137006800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I login bank manager successfully",
+            "match": {
+              "location": "CommonTest.loginBankManagerSuccessfully()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3143182000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click customer tab",
+            "match": {
+              "location": "CommonTest.clickCustomerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3231360400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input key search as v",
+            "match": {
+              "arguments": [
+                {
+                  "val": "v",
+                  "offset": 22
+                }
+              ],
+              "location": "SearchCustomerTest.setKeySearch(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2195835800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify that system is already showed customer has v",
+            "match": {
+              "arguments": [
+                {
+                  "val": "v",
+                  "offset": 52
+                }
+              ],
+              "location": "SearchCustomerTest.verifySearchCustomerSuccessfully(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1056371600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Website https://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 13
+                }
+              ],
+              "location": "CommonTest.user_already_on_home_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Search customer successfully",
+        "description": "",
+        "id": "search-customer;search-customer-successfully;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6144617700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I login bank manager successfully",
+            "match": {
+              "location": "CommonTest.loginBankManagerSuccessfully()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3162362500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click customer tab",
+            "match": {
+              "location": "CommonTest.clickCustomerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3248449600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input key search as i",
+            "match": {
+              "arguments": [
+                {
+                  "val": "i",
+                  "offset": 22
+                }
+              ],
+              "location": "SearchCustomerTest.setKeySearch(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2453407200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify that system is already showed customer has i",
+            "match": {
+              "arguments": [
+                {
+                  "val": "i",
+                  "offset": 52
+                }
+              ],
+              "location": "SearchCustomerTest.verifySearchCustomerSuccessfully(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search customer",
+    "description": "",
+    "id": "search-customer",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/bankmanager/searchCustomer.feature"
+  }
+]
